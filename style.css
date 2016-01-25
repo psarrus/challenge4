@@ -54,7 +54,7 @@ main {
   margin-top: 3em;
 }
 .section1 {
-  max-width: 80%;
+  width: 80%;
   margin: auto;
   text-align: center;
   padding: 4em 0;
@@ -136,9 +136,9 @@ footer .fa {
   color: #4C93B9;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
     main {
-        max-width: 480px;
+        max-width: 375px;
     }
     h1 {
       font-size: 2.5em;
@@ -147,7 +147,7 @@ footer .fa {
       font-size: 2em;
     }
     .menu {
-      text-align: left;
+      text-align: center;
     }
     .menu li {
       width: 100%;
